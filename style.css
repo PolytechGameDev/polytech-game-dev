@@ -7,9 +7,19 @@ body {
     min-height: 100%;
 }
 
-h1
-{
+h1 {
     text-align: center;
+}
+
+h2 {
+	background-color: var(--primary-focus);
+	margin: var(--block-spacing-vertical) 0;
+	padding: var(--block-spacing-vertical) var(--block-spacing-horizontal);
+	overflow: hidden;
+	border-radius: var(--border-radius);
+	background: var(--card-background-color);
+	box-shadow: var(--card-box-shadow);
+	font-size: 1.2em !important;
 }
 
 .center {
